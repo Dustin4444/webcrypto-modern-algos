@@ -5,6 +5,7 @@ post-quantum secure and modern cryptographic algorithms in the
 Web Cryptography API, namely:
 
 - ML-KEM
+- Hybrid KEMs
 - ML-DSA
 - SLH-DSA
 - AES-OCB
@@ -13,7 +14,7 @@ Web Cryptography API, namely:
 - KMAC
 - Argon2
 
-To accommodate the usage of ML-KEM, and possibly future other KEMs,
+To accommodate the usage of ML-KEM, Hybrid KEMs, and possibly future other KEMs,
 it proposes to add functions for key encapsulation and decapsulation;
 `SubtleCrypto.encapsulateKey`, `SubtleCrypto.encapsulateBits`,
 `SubtleCrypto.decapsulateKey` and `SubtleCrypto.decapsulateBits`.
